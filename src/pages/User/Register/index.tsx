@@ -160,7 +160,7 @@ const Register: React.FC = () => {
           formRef={formRef}
           contentStyle={{minWidth: 280, maxWidth: '75vw',}}
           logo={<img alt="logo" src="/logo.svg" />}
-          title="Lucky LEOJ" subTitle={' '}
+          title="Lucky OJ" subTitle={' '}
           submitter={{ searchConfig: {submitText: '注册', resetText: '使用已有帐号登录'}}}
           onFinish={async (values) => {
             await handleSubmit(values as API.RegisterEmailRequest);

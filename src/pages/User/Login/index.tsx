@@ -124,8 +124,8 @@ const Login: React.FC = () => {
         <LoginForm
           contentStyle={{minWidth: 280, maxWidth: '75vw',}}
           logo={<img alt="logo" src="/logo.svg"/>}
-          title="Lucky LEOJ"
-          subTitle={'Lucky LEOJ 一款开源的在线编程系统'}
+          title="Lucky OJ"
+          subTitle={'Lucky OJ 一款开源的在线编程系统'}
           initialValues={{autoLogin: true,}}
           actions={['其他登录方式 :', <ActionIcons key="icons"/>]}
           onFinish={async (values) => {

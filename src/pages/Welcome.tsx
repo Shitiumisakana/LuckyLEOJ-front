@@ -6,7 +6,7 @@ import {Card} from "antd";
 const Welcome: React.FC = () => {
   return (
     <PageContainer>
-      <Card title="欢迎来到  Lucky LEOJ" >
+      <Card title="欢迎来到  Lucky OJ" >
         Card content
       </Card>
     </PageContainer>

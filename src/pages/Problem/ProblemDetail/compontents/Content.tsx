@@ -108,7 +108,7 @@ const Content: React.FC<ContentProps> = ({problem, difficultyColor})=>{
     </Space>
 
     <div style={{marginTop: 38, marginBottom: 12, fontSize: 12, color: '#262626bf'}}>
-      © 2026 LuckyLEOJ在线判题平台
+      © 2026 LuckyOJ在线判题平台
     </div>
   </div>)
 }
